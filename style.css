@@ -24,18 +24,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 -------------------------------------------------------------- */
 
 @font-face {
-	font-family:'OTS-derive1-font';
-	src: url('./fonts/OTS-derive1-font/3ADA6F_0_0.woff2');
-	src: url('./fonts/OTS-derive1-font/3ADA6F_0_0.woff2') format('woff2'),
-	url('./fonts/OTS-derive1-font/3ADA6F_0_0.woff') format('woff'),
-	url('./fonts/OTS-derive1-font/3ADA6F_0_0.eot?#iefix') format('embedded-opentype'),
-	url('./fonts/OTS-derive1-font/3ADA6F_0_0.ttf') format('truetype'),
-	url('./fonts/OTS-derive1-font/3ADA6F_0_0.svg#OTS-derive1-font') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
 	font-family:'OTS-derive2-font';
 	src: url('./fonts/OTS-derive2-font/3ADA70_0_0.woff2');
 	src: url('./fonts/OTS-derive2-font/3ADA70_0_0.woff2') format('woff2'),
@@ -55,6 +43,18 @@ a:hover{text-decoration: none; cursor:pointer;}
 	url('./fonts/OTS-derive3-font/3ADA72_0_0.eot?#iefix') format('embedded-opentype'),
 	url('./fonts/OTS-derive3-font/3ADA72_0_0.ttf') format('truetype'),
 	url('./fonts/OTS-derive3-font/3ADA72_0_0.svg#OTS-derive3-font') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'OTS-derive1-font';
+	src: url('./fonts/OTS-derive1-font/3ADA6F_0_0.woff2');
+	src: url('./fonts/OTS-derive1-font/3ADA6F_0_0.woff2') format('woff2'),
+	url('./fonts/OTS-derive1-font/3ADA6F_0_0.woff') format('woff'),
+	url('./fonts/OTS-derive1-font/3ADA6F_0_0.eot?#iefix') format('embedded-opentype'),
+	url('./fonts/OTS-derive1-font/3ADA6F_0_0.ttf') format('truetype'),
+	url('./fonts/OTS-derive1-font/3ADA6F_0_0.svg#OTS-derive1-font') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -1301,7 +1301,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .financials{
 	background-image:url("img/financials.svg");
-	background-size:auto 70%;
+	background-size:90% auto;
 }
 .h1-43310-style{
 	font-size:40px;
@@ -1325,6 +1325,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .text-underline{
 	text-decoration:underline!important;
+}
+.financials-v2{
+	background-image:url("img/ODI%202019%20AR%20Cover%20dev01.svg");
+	background-size:100% auto;
+}
+.intro-header{
+	background-image:url("img/ODI%202019%20AR%20Cover%20dev01.svg");
+	background-size:100% auto;
 }
 
 /* = Colour
@@ -1395,9 +1403,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Text colour styles */
 
-.tc-white{
-	color:#FFFFFF!important;
-}
 .tc-capri{
 	color:#00B6FF!important;
 }
@@ -1409,6 +1414,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .tc-purple-heart{
 	color:#722DA5!important;
+}
+.tc-white{
+	color:#FFFFFF!important;
 }
 .tc-oxford-blue{
 	color:#1A1D50!important;
