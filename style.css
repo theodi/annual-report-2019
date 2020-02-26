@@ -359,6 +359,15 @@ button{
 	margin-right: auto;
 }
 
+/* = Lists
+-------------------------------------------------------------- */
+.list-horizontal-layout li{
+	float:left;
+	margin:0 10px;
+}
+.list-sp-md li:last-child,.list-sp-lg li:last-child,.list-sp-xl li:last-child{
+	padding-bottom:0;
+}
 
 /* = Cards
 -------------------------------------------------------------- */
@@ -1124,7 +1133,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .svg-bg-data-trusts{
 	background-position:center center;
 	background-size:90% auto;
-	background-image:url("img/Data%20Trusts.svg");
+	background-image:url("img/data%20trusts%20header%20image.svg");
 	background-color:#2153F4;
 }
 .margin-top{
@@ -1151,12 +1160,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding-top:30px;
 }
 .private-sector-bg{
-	background-position:center center;
-	background-image:url("img/49059620276_685894d557_o.jpg");
+	background-position:left center;
+	background-image:url("img/private-sector-cropped.jpg");
 }
 .summit-bg{
 	background-position:center center;
-	background-image:url("img/49059109313_428e3666b5_o.jpg");
+	background-image:url("img/caroline-criado-cropped.jpg");
 }
 .h1-39-style{
 	font-size:50px;
@@ -1185,7 +1194,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-size:auto 90%;
 }
 .h1-8-style{
-	font-size:20px;
+	font-size:40px;
 }
 .colour-text-acid{
 	color:#C0E136!important;
@@ -1303,8 +1312,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-image:url("img/financials.svg");
 	background-size:90% auto;
 }
-.h1-43310-style{
+.mission-margin{
 	font-size:40px;
+	margin-top:25px;
 }
 .bold-stat{
 	font-size:100px;
@@ -1327,12 +1337,75 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-decoration:underline!important;
 }
 .financials-v2{
-	background-image:url("img/ODI%202019%20AR%20Cover%20dev01.svg");
-	background-size:100% auto;
+	background-image:url("img/financials%20v4.svg");
+	background-size:90% auto;
 }
 .intro-header{
-	background-image:url("img/ODI%202019%20AR%20Cover%20dev01.svg");
-	background-size:100% auto;
+	background-image:url("img/ODI%202019%20AR%20Cover%20dev01%20%281%29.svg");
+	background-size:85% auto;
+}
+.vision-padding{
+	height:150px;
+}
+.row-margin-top{
+	margin-top:450px;
+}
+.vision-margin{
+	margin-top:50px;
+}
+.header-explore-margin{
+	padding-right:20px;
+	padding-left:20px;
+}
+.caption-carousel{
+	color:#FEFFFE!important;
+	font-size:16px;
+	font-weight:normal;
+	float:right;
+	background-position:left top;
+	text-align:left;
+	margin:0px 0px 0px 0px;
+	padding:10px 10px 10px 10px;
+}
+.carousel-caption-area{
+	background-position:left bottom;
+	width:30%;
+	margin-left:-130px;
+	background-color:rgba(0,0,0,0.6);
+	margin-bottom:30px;
+}
+.carousel-indicators li{
+	height:10px;
+	width:10px;
+	border-style:solid;
+	border-color:#08DDF8!important;
+	margin-right:15px;
+	margin-left:15px;
+	background-color:#FEFFFE;
+	border-radius:100px 100px 100px 100px;
+	border-width:0px 0px 0px 0px;
+}
+.carousel-nav-controls{
+	font-size:50px;
+}
+.dam-map-bg{
+	background-image:url("img/jared-cropped.jpg");
+	background-position:left center;
+}
+.data-pitch-bg{
+	background-image:url("img/personas%20group.svg");
+	background-size:auto 90%;
+	background-color:#FEFFFE;
+}
+.openactive-bg{
+	background-image:url("img/openactive%20face%20v3.svg");
+	background-color:#08DDF8;
+	background-position:center bottom;
+	background-size:auto 95%;
+}
+.en-dash{
+	font-family:"OTS-derive3-font";
+	background-size:auto auto;
 }
 
 /* = Colour
@@ -1373,8 +1446,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-dodger-blue{
 	background-color:#178BFF;
 }
-.bgc-june-bud{
-	background-color:#D3E556;
+.bgc-pear{
+	background-color:#CAE444;
 }
 .bgc-palatinate-blue{
 	background-color:#2153F4;
@@ -1403,20 +1476,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Text colour styles */
 
+.tc-white{
+	color:#FFFFFF!important;
+}
 .tc-capri{
 	color:#00B6FF!important;
 }
-.tc-rose-bonbon{
-	color:#EF3AAB!important;
+.tc-black{
+	color:#000000!important;
 }
 .tc-palatinate-blue{
 	color:#2153F4!important;
-}
-.tc-purple-heart{
-	color:#722DA5!important;
-}
-.tc-white{
-	color:#FFFFFF!important;
 }
 .tc-oxford-blue{
 	color:#1A1D50!important;
@@ -1427,8 +1497,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-dodger-blue{
 	color:#178BFF!important;
 }
-.tc-june-bud{
-	color:#D3E556!important;
+.tc-pear{
+	color:#CAE444!important;
 }
 .tc-palatinate-blue-2{
 	color:#2153F4!important;
@@ -1445,8 +1515,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-capri-2{
 	color:#00C3FF!important;
 }
+.tc-purple-heart{
+	color:#722DA5!important;
+}
 .tc-bright-pink{
 	color:#E5007B!important;
+}
+.tc-rose-bonbon{
+	color:#EF3AAB!important;
 }
 
 /* Link colour styles */
@@ -1469,23 +1545,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .ltc-palatinate-blue:hover{
 	color:#1a42c3!important;
 }
-.ltc-june-bud{
-	color:#D3E556!important;
+.ltc-pear{
+	color:#CAE444!important;
 }
-.ltc-june-bud:hover{
-	color:#a9b745!important;
+.ltc-pear:hover{
+	color:#a2b636!important;
 }
 
 /* Bloc image backgrounds */
 
-.bg-camera-overlay{
-	background-image:url("img/camera-overlay.png");
-}
 .bg-ODI-Data--26-Public-Services-Toolkit-1{
 	background-image:url("img/ODI-Data-%26-Public-Services-Toolkit-1.jpg");
-}
-.bg-49059617241-f062b3bc6a-o-20-281-29{
-	background-image:url("img/49059617241_f062b3bc6a_o%20%281%29.jpg");
 }
 .bg-49059619306-b34f1e160f-o-20-281-29{
 	background-image:url("img/49059619306_b34f1e160f_o%20%281%29.jpg");
@@ -1508,20 +1578,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-49059622361-b71a5fc1b5-o{
 	background-image:url("img/49059622361_b71a5fc1b5_o.jpg");
 }
-.bg-double-image-RandD{
-	background-image:url("img/double-image-RandD.jpg");
-}
-.bg-49059110828-c9cbe2151d-o{
-	background-image:url("img/49059110828_c9cbe2151d_o.jpg");
-}
-.bg-49059621631-19a3a04389-o{
-	background-image:url("img/49059621631_19a3a04389_o.jpg");
-}
-.bg-49059622901-6088e1f3fb-o{
-	background-image:url("img/49059622901_6088e1f3fb_o.jpg");
-}
 .bg-infrastructure-manifesto-RGB-2x{
 	background-image:url("img/infrastructure%20manifesto%20RGB@2x.png");
+}
+.bg-49059105338-680d2cb9ca-o{
+	background-image:url("img/49059105338_680d2cb9ca_o.jpg");
+}
+.bg-49059110828-c9cbe2151d-o-20copy{
+	background-image:url("img/49059110828_c9cbe2151d_o%20copy.jpg");
+}
+.bg-double-image-Randd-20v2{
+	background-image:url("img/double-image-Randd%20v2.jpg");
 }
 
 
