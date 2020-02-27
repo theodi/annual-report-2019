@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    ODI Annual report draft V4
+	    ODI Annual report draft V5
         Built with Blocs
 -----------------------------------------------------------------------------------*/
  
@@ -24,18 +24,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 -------------------------------------------------------------- */
 
 @font-face {
-	font-family:'OTS-derive2-font';
-	src: url('./fonts/OTS-derive2-font/3ADA70_0_0.woff2');
-	src: url('./fonts/OTS-derive2-font/3ADA70_0_0.woff2') format('woff2'),
-	url('./fonts/OTS-derive2-font/3ADA70_0_0.woff') format('woff'),
-	url('./fonts/OTS-derive2-font/3ADA70_0_0.eot?#iefix') format('embedded-opentype'),
-	url('./fonts/OTS-derive2-font/3ADA70_0_0.ttf') format('truetype'),
-	url('./fonts/OTS-derive2-font/3ADA70_0_0.svg#OTS-derive2-font') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
 	font-family:'OTS-derive3-font';
 	src: url('./fonts/OTS-derive3-font/3ADA72_0_0.woff2');
 	src: url('./fonts/OTS-derive3-font/3ADA72_0_0.woff2') format('woff2'),
@@ -43,6 +31,18 @@ a:hover{text-decoration: none; cursor:pointer;}
 	url('./fonts/OTS-derive3-font/3ADA72_0_0.eot?#iefix') format('embedded-opentype'),
 	url('./fonts/OTS-derive3-font/3ADA72_0_0.ttf') format('truetype'),
 	url('./fonts/OTS-derive3-font/3ADA72_0_0.svg#OTS-derive3-font') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'OTS-derive2-font';
+	src: url('./fonts/OTS-derive2-font/3ADA70_0_0.woff2');
+	src: url('./fonts/OTS-derive2-font/3ADA70_0_0.woff2') format('woff2'),
+	url('./fonts/OTS-derive2-font/3ADA70_0_0.woff') format('woff'),
+	url('./fonts/OTS-derive2-font/3ADA70_0_0.eot?#iefix') format('embedded-opentype'),
+	url('./fonts/OTS-derive2-font/3ADA70_0_0.ttf') format('truetype'),
+	url('./fonts/OTS-derive2-font/3ADA70_0_0.svg#OTS-derive2-font') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -1175,9 +1175,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-position:left center;
 	background-image:url("img/49059107088_79731c798c_o.jpg");
 }
-.link-style{
-	font-weight:bold;
-}
 .watch-animation{
 	font-size:24px;
 	color:#FEFFFE!important;
@@ -1195,7 +1192,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-size:auto 90%;
 }
 .h1-8-style{
-	font-size:40px;
+	font-size:30px;
 }
 .colour-text-acid{
 	color:#C0E136!important;
@@ -1440,6 +1437,30 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:18px;
 	line-height:22px;
 }
+.link-style{
+	font-weight:bold;
+}
+.link-bloc-14-style{
+	font-weight:bold;
+}
+.link-bloc-17-style{
+	font-weight:bold;
+}
+.colour-text-light-pink{
+	color:#EF3AAB!important;
+}
+.colour-text-purple{
+	color:#722DA5!important;
+}
+.colour-text-lighter-blue{
+	color:#178BFF!important;
+}
+.colour-text-sky-blue{
+	color:#08DDF8!important;
+}
+.colour-text-blue{
+	color:#2153F4!important;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1448,12 +1469,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .bgc-black{
 	background-color:#000000;
-}
-.bgc-white{
-	background-color:#FFFFFF;
-}
-.bgc-dodger-blue{
-	background-color:#11A0FF;
 }
 .bgc-lavender-pink{
 	background-color:#F2ADD9;
@@ -1464,8 +1479,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-platinum{
 	background-color:#E7E7E7;
 }
-.bgc-neon-fuchsia{
-	background-color:#F558B9;
+.bgc-rose-bonbon-2{
+	background-color:#EF3AAB;
 }
 .bgc-international-orange{
 	background-color:#FF5800;
@@ -1476,7 +1491,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-dark-pastel-green{
 	background-color:#0DBC36;
 }
-.bgc-dodger-blue-2{
+.bgc-dodger-blue{
 	background-color:#178BFF;
 }
 .bgc-pear{
@@ -1485,38 +1500,38 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-palatinate-blue{
 	background-color:#2153F4;
 }
-.bgc-caribbean-green{
-	background-color:#1CD3A6;
-}
-.bgc-white-smoke{
-	background-color:#F5F4F4;
-}
 .bgc-purple-heart{
 	background-color:#722DA5;
 }
 .bgc-purple-heart-2{
 	background-color:#722DA5;
 }
+.bgc-white{
+	background-color:#FFFFFF;
+}
+.bgc-caribbean-green{
+	background-color:#1CD3A6;
+}
+.bgc-dodger-blue-2{
+	background-color:#11A0FF;
+}
+.bgc-white-smoke{
+	background-color:#F5F4F4;
+}
 .bgc-saffron{
 	background-color:#FBC630;
 }
+.bgc-ultramarine-blue{
+	background-color:#2C6FF6;
+}
 .bgc-bright-pink{
 	background-color:#E5007B;
-}
-.bgc-palatinate-blue-2{
-	background-color:#2153F4;
 }
 
 /* Text colour styles */
 
 .tc-white{
 	color:#FFFFFF!important;
-}
-.tc-capri{
-	color:#00B6FF!important;
-}
-.tc-black{
-	color:#000000!important;
 }
 .tc-oxford-blue{
 	color:#1A1D50!important;
@@ -1525,36 +1540,42 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#08DDF8!important;
 }
 .tc-dodger-blue{
-	color:#178BFF!important;
+	color:#11A0FF!important;
 }
 .tc-pear{
 	color:#C0E136!important;
 }
-.tc-palatinate-blue{
-	color:#2153F4!important;
-}
-.tc-neon-fuchsia{
-	color:#F558B9!important;
-}
-.tc-caribbean-green{
-	color:#1CD3A6!important;
+.tc-ultramarine-blue{
+	color:#2C6FF6!important;
 }
 .tc-dark-pastel-green{
 	color:#0DBC36!important;
 }
-.tc-capri-2{
+.tc-palatinate-blue{
+	color:#2153F4!important;
+}
+.tc-capri{
 	color:#00C3FF!important;
 }
 .tc-purple-heart{
 	color:#722DA5!important;
 }
+.tc-black{
+	color:#000000!important;
+}
+.tc-capri-2{
+	color:#00B6FF!important;
+}
+.tc-rose-bonbon{
+	color:#EF3AAB!important;
+}
+.tc-caribbean-green{
+	color:#1CD3A6!important;
+}
 .tc-bright-pink{
 	color:#E5007B!important;
 }
-.tc-palatinate-blue-2{
-	color:#2153F4!important;
-}
-.tc-rose-bonbon{
+.tc-rose-bonbon-2{
 	color:#EF3AAB!important;
 }
 
@@ -1566,11 +1587,29 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .ltc-white:hover{
 	color:#cccccc!important;
 }
-.ltc-black{
-	color:#000000!important;
+.ltc-oxford-blue{
+	color:#1A1D50!important;
 }
-.ltc-black:hover{
-	color:#000000!important;
+.ltc-oxford-blue:hover{
+	color:#151740!important;
+}
+.ltc-dark-pastel-green{
+	color:#0DBC36!important;
+}
+.ltc-dark-pastel-green:hover{
+	color:#0a962b!important;
+}
+.ltc-dodger-blue{
+	color:#11A0FF!important;
+}
+.ltc-dodger-blue:hover{
+	color:#0e80cc!important;
+}
+.ltc-ultramarine-blue{
+	color:#2C6FF6!important;
+}
+.ltc-ultramarine-blue:hover{
+	color:#2359c5!important;
 }
 .ltc-palatinate-blue{
 	color:#2153F4!important;
@@ -1578,11 +1617,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .ltc-palatinate-blue:hover{
 	color:#1a42c3!important;
 }
-.ltc-pear{
-	color:#C0E136!important;
+.ltc-bright-turquoise{
+	color:#08DDF8!important;
 }
-.ltc-pear:hover{
-	color:#9ab42b!important;
+.ltc-bright-turquoise:hover{
+	color:#06b1c6!important;
+}
+.ltc-black{
+	color:#000000!important;
+}
+.ltc-black:hover{
+	color:#000000!important;
 }
 
 /* Bloc image backgrounds */
