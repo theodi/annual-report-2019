@@ -1184,9 +1184,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:bold;
 }
 .navigation-header{
-	text-transform:uppercase;
-	font-size:18px;
-	text-decoration:underline!important;
+	text-transform:none;
+	font-size:30px;
+	text-decoration:none;
 	font-weight:bold;
 }
 .rsa-bg-type{
@@ -1256,7 +1256,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:80px;
 }
 .bg-membership{
-	background-image:url("img/49059105103_c2f1f06968_o-v2.jpg");
+	background-image:url("img/49059111993_340f43b2c5_o-2.jpg");
 	background-position:left center;
 }
 .h1-bloc-26-style{
@@ -1418,6 +1418,28 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-style:italic;
 	font-weight:bold;
 }
+.financials-header-text{
+	font-weight:bold;
+	color:#FEFFFE!important;
+	font-size:30px;
+	text-decoration:none;
+}
+.colour-text-black{
+	color:#000000!important;
+}
+.divider-top-black{
+	border-style:solid;
+	border-color:#000000!important;
+	border-width:2px 0px 0px 0px;
+}
+.quote-mark-large{
+	font-size:70px;
+	line-height:70px;
+}
+.text-manifesto{
+	font-size:18px;
+	line-height:22px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1480,9 +1502,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bgc-bright-pink{
 	background-color:#E5007B;
-}
-.bgc-bright-turquoise{
-	background-color:#08DDF8;
 }
 .bgc-palatinate-blue-2{
 	background-color:#2153F4;
@@ -1583,14 +1602,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-CABI-Data-Ecosystem-Mapping-workshop-v2{
 	background-image:url("img/CABI-Data-Ecosystem-Mapping-workshop%20v2.jpg");
 }
+.bg-49059105103-c2f1f06968-o{
+	background-image:url("img/49059105103_c2f1f06968_o.jpg");
+}
 .bg-membership-20graphic-2x{
 	background-image:url("img/membership%20graphic@2x.png");
 }
 .bg-49059622361-b71a5fc1b5-o{
 	background-image:url("img/49059622361_b71a5fc1b5_o.jpg");
-}
-.bg-infrastructure-manifesto-RGB-2x{
-	background-image:url("img/infrastructure%20manifesto%20RGB@2x.png");
 }
 .bg-49059105338-680d2cb9ca-o{
 	background-image:url("img/49059105338_680d2cb9ca_o.jpg");
@@ -1603,6 +1622,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-double-image-data-trusts{
 	background-image:url("img/double-image-data-trusts.jpg");
+}
+.bg-equity-20manifesto-20RGB-2x{
+	background-image:url("img/equity%20manifesto%20RGB@2x.png");
 }
 
 
