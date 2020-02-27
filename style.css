@@ -259,6 +259,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 .voffset{
 	margin-top:30px;
 }
+.voffset-lg{
+	margin-top:80px;
+}
 /* Dividers */
 
 .b-divider-dashed{
@@ -531,9 +534,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"OTS-derive3-font";
 	letter-spacing:-10px;
 }
-.bloc-margin-top{
-	margin-top:0px;
-}
 .h1-summit{
 	font-weight:bold;
 }
@@ -785,6 +785,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:24px;
 	line-height:30px;
 	margin-top:0px;
+	font-weight:bold;
 }
 .intro-ceo{
 	padding:30px 30px 30px 30px;
@@ -799,7 +800,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-style:italic;
 }
 .svg-bg{
-	background-position:left center;
+	background-position:left bottom;
 	background-size:100% auto;
 	background-image:url("img/about%20data%20about%20us%20V2%20BG%20AR2019.svg");
 }
@@ -1226,9 +1227,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-color:#0DBC36!important;
 	border-width:2px 0px 0px 0px;
 }
-.link-0-style{
-	font-weight:bold;
-}
 .link-0-read-more…-style{
 	font-weight:bold;
 }
@@ -1341,6 +1339,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .intro-header{
 	background-image:url("img/ODI%202019%20AR%20Cover%20dev01%20%281%29.svg");
 	background-size:85% auto;
+	background-position:center top;
+	padding-right:100px;
+	padding-bottom:100px;
+	padding-left:100px;
 }
 .vision-padding{
 	height:150px;
@@ -1439,12 +1441,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .link-style{
 	font-weight:bold;
-}
-.link-bloc-14-style{
-	font-weight:bold;
-}
-.link-bloc-17-style{
-	font-weight:bold;
+	text-decoration:underline!important;
 }
 .colour-text-light-pink{
 	color:#EF3AAB!important;
@@ -1461,6 +1458,35 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .colour-text-blue{
 	color:#2153F4!important;
 }
+.link-yougov-survey-style{
+	font-weight:bold;
+}
+.link-style:hover{
+	color:rgba(255,255,255,0.50)!important;
+}
+.link-style:hover{
+	color:rgba(255,255,255,0.70)!important;
+}
+.link-style-black{
+	text-decoration:underline!important;
+	color:#000000!important;
+}
+.link-style-black:hover{
+	text-decoration:underline!important;
+	color:rgba(0,0,0,0.50)!important;
+}
+.link-style-blue:hover{
+	color:rgba(0,0,0,0.70)!important;
+}
+.header-image{
+	margin-top:-150px;
+}
+.svg-bg-data-trusts-mobile{
+	background-position:center center;
+	background-size:90% auto;
+	background-image:url("img/data%20trusts%20header%20image.svg");
+	background-color:#2153F4;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1473,11 +1499,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-lavender-pink{
 	background-color:#F2ADD9;
 }
-.bgc-rose-bonbon{
-	background-color:#EF3AAB;
-}
 .bgc-platinum{
 	background-color:#E7E7E7;
+}
+.bgc-rose-bonbon{
+	background-color:#EF3AAB;
 }
 .bgc-rose-bonbon-2{
 	background-color:#EF3AAB;
@@ -1501,9 +1527,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-color:#2153F4;
 }
 .bgc-purple-heart{
-	background-color:#722DA5;
-}
-.bgc-purple-heart-2{
 	background-color:#722DA5;
 }
 .bgc-white{
@@ -1536,14 +1559,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-oxford-blue{
 	color:#1A1D50!important;
 }
-.tc-bright-turquoise{
-	color:#08DDF8!important;
-}
 .tc-dodger-blue{
 	color:#11A0FF!important;
 }
-.tc-pear{
-	color:#C0E136!important;
+.tc-dodger-blue-2{
+	color:#11A0FF!important;
 }
 .tc-ultramarine-blue{
 	color:#2C6FF6!important;
@@ -1553,6 +1573,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .tc-palatinate-blue{
 	color:#2153F4!important;
+}
+.tc-bright-turquoise{
+	color:#08DDF8!important;
 }
 .tc-capri{
 	color:#00C3FF!important;
@@ -1578,6 +1601,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-rose-bonbon-2{
 	color:#EF3AAB!important;
 }
+.tc-pear{
+	color:#C0E136!important;
+}
 
 /* Link colour styles */
 
@@ -1586,6 +1612,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-white:hover{
 	color:#cccccc!important;
+}
+.ltc-black{
+	color:#000000!important;
+}
+.ltc-black:hover{
+	color:#000000!important;
 }
 .ltc-oxford-blue{
 	color:#1A1D50!important;
@@ -1599,11 +1631,23 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .ltc-dark-pastel-green:hover{
 	color:#0a962b!important;
 }
+.ltc-bright-turquoise{
+	color:#08DDF8!important;
+}
+.ltc-bright-turquoise:hover{
+	color:#06b1c6!important;
+}
 .ltc-dodger-blue{
 	color:#11A0FF!important;
 }
 .ltc-dodger-blue:hover{
 	color:#0e80cc!important;
+}
+.ltc-pear{
+	color:#C0E136!important;
+}
+.ltc-pear:hover{
+	color:#9ab42b!important;
 }
 .ltc-ultramarine-blue{
 	color:#2C6FF6!important;
@@ -1616,18 +1660,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-palatinate-blue:hover{
 	color:#1a42c3!important;
-}
-.ltc-bright-turquoise{
-	color:#08DDF8!important;
-}
-.ltc-bright-turquoise:hover{
-	color:#06b1c6!important;
-}
-.ltc-black{
-	color:#000000!important;
-}
-.ltc-black:hover{
-	color:#000000!important;
 }
 
 /* Bloc image backgrounds */
@@ -2069,6 +2101,82 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.p-3-style-{
 		font-size:16px;
 		line-height:20px;
+	}
+	.navigation-header{
+		font-size:20px;
+	}
+	.h1-med-comp{
+		font-size:50px;
+		line-height:50px;
+	}
+	.hero-header{
+		font-size:75px;
+		line-height:75px;
+	}
+	.svg-bg-data-trusts{
+		background-color:#2153F4;
+	}
+	.svg-bg-data-trusts-mobile{
+		background-color:#178BFF;
+	}
+	.stat-header{
+		font-size:50px;
+	}
+	.member-stat{
+		font-size:130px;
+		line-height:130px;
+		letter-spacing:-5px;
+		text-indent:5px;
+	}
+	.divider-top-green{
+		;
+	}
+	.divider-top{
+		border-top-width:0px;
+	}
+	.img-bloc-24-style{
+		width:270px;
+		padding:20px 20px 20px 20px;
+	}
+	.margin-bottom{
+		margin-bottom:50px;
+	}
+	.margin-top{
+		margin-top:50px;
+	}
+	.row-bloc-30-margin-top{
+		margin-top:-65px;
+	}
+	.img-bloc-23-style{
+		padding:20px 20px 20px 20px;
+	}
+	.divider-right-green{
+		border-right-width:0px;
+	}
+	.data-pitch-bg{
+		background-size:90% auto;
+	}
+	.divider-right-purple{
+		border-right-width:0px;
+	}
+	.divider-top-purple{
+		border-top-width:0px;
+	}
+	.row-bloc-27-margin-top{
+		margin-top:-65px;
+	}
+	.h1-heading-1-style{
+		font-size:75px;
+		text-align:center;
+	}
+	.training-stat{
+		font-size:130px;
+		line-height:130px;
+		text-indent:5px;
+		letter-spacing:-5px;
+	}
+	.divider-top-black{
+		border-top-width:0px;
 	}
 	
 	/* Mobile Text Margin Offsets */
