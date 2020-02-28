@@ -1525,11 +1525,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-black{
 	color:#000000!important;
 }
-.tc-oxford-blue{
-	color:#1A1D50!important;
-}
 .tc-palatinate-blue{
 	color:#2153F4!important;
+}
+.tc-oxford-blue{
+	color:#1A1D50!important;
 }
 .tc-dodger-blue{
 	color:#11A0FF!important;
@@ -1639,8 +1639,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-jeni{
 	background-image:url("img/jeni.jpg");
 }
-.bg-RSA-20typographic{
-	background-image:url("img/RSA%20typographic.svg");
+.bg-RSA{
+	background-image:url("img/RSA.png");
 }
 
 
@@ -1919,7 +1919,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 @media (max-width: 575px){
 	.h2-style{
-		font-size:30px;
+		font-size:px;
+		font-family:"helvetica";
 	}
 	.h1-bloc-7-style{
 		font-size:200px;
@@ -2105,7 +2106,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		font-size:24px;
 	}
 	.bloc-margin-top{
-		margin-top:-100px;
+		margin-top:-50px;
+		background-size:auto auto;
 	}
 	.colour-text-green{
 		color:#0DBC36!important;
@@ -2161,9 +2163,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.rsa-bg-type{
 		background-size:90% auto;
 	}
+	.header-impact-image{
+		background-size:auto 300px;
+		background-image:url("img/ODI%202019%20AR%20Cover%20-%20Mobile%20dev01-01.svg");
+	}
+	.padding-imapct{
+		padding-right:50px;
+		padding-left:50px;
+	}
 	
 	/* Mobile Row Margin Offsets */
-	.voffset-md-xs{
+	.voffset-xs{
+		margin-top:30px;
+	}
+		.voffset-md-xs{
 		margin-top:50px;
 	}
 	
