@@ -1642,9 +1642,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-RSA-20typographic{
 	background-image:url("img/RSA%20typographic.svg");
 }
-.bg-RSA{
-	background-image:url("img/RSA.png");
-}
 
 
 
@@ -2148,7 +2145,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.link-style-black{
 	}
 	.img-style{
-		;
+		background-size:auto auto;
 	}
 	.image-bloc-mobile{
 		width:100%;
