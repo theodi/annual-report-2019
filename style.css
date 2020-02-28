@@ -24,18 +24,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 -------------------------------------------------------------- */
 
 @font-face {
-	font-family:'OTS-derive2-font';
-	src: url('./fonts/OTS-derive2-font/3ADA70_0_0.woff2');
-	src: url('./fonts/OTS-derive2-font/3ADA70_0_0.woff2') format('woff2'),
-	url('./fonts/OTS-derive2-font/3ADA70_0_0.woff') format('woff'),
-	url('./fonts/OTS-derive2-font/3ADA70_0_0.eot?#iefix') format('embedded-opentype'),
-	url('./fonts/OTS-derive2-font/3ADA70_0_0.ttf') format('truetype'),
-	url('./fonts/OTS-derive2-font/3ADA70_0_0.svg#OTS-derive2-font') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
 	font-family:'OTS-derive3-font';
 	src: url('./fonts/OTS-derive3-font/3ADA72_0_0.woff2');
 	src: url('./fonts/OTS-derive3-font/3ADA72_0_0.woff2') format('woff2'),
@@ -43,6 +31,18 @@ a:hover{text-decoration: none; cursor:pointer;}
 	url('./fonts/OTS-derive3-font/3ADA72_0_0.eot?#iefix') format('embedded-opentype'),
 	url('./fonts/OTS-derive3-font/3ADA72_0_0.ttf') format('truetype'),
 	url('./fonts/OTS-derive3-font/3ADA72_0_0.svg#OTS-derive3-font') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'OTS-derive2-font';
+	src: url('./fonts/OTS-derive2-font/3ADA70_0_0.woff2');
+	src: url('./fonts/OTS-derive2-font/3ADA70_0_0.woff2') format('woff2'),
+	url('./fonts/OTS-derive2-font/3ADA70_0_0.woff') format('woff'),
+	url('./fonts/OTS-derive2-font/3ADA70_0_0.eot?#iefix') format('embedded-opentype'),
+	url('./fonts/OTS-derive2-font/3ADA70_0_0.ttf') format('truetype'),
+	url('./fonts/OTS-derive2-font/3ADA70_0_0.svg#OTS-derive2-font') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
