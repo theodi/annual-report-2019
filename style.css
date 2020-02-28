@@ -393,6 +393,11 @@ iframe{
 	opacity: 1;
 }
 
+/* Hide Object */
+.object-hidden{
+	display:none;
+}
+
 /* = Custom Styling
 -------------------------------------------------------------- */
 
