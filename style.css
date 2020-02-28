@@ -397,23 +397,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .navbar-brand img{
 	width:0px;
 }
-.h1-style{
-	font-size:24px;
-	font-weight:bold;
-	line-height:30px;
-	color:#FFFFFF!important;
-	margin-top:-70px;
-}
 .stats{
 	font-size:100px;
 	font-weight:normal;
 	text-align:center;
 	letter-spacing:-3px;
 	color:#EF39AA!important;
-}
-.p-style{
-	font-size:4px;
-	font-family:"helvetica";
 }
 .p-2-style{
 	font-size:18px;
@@ -1424,9 +1413,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .link-style:hover{
 	color:rgba(255,255,255,0.50)!important;
 }
-.link-style:hover{
-	color:rgba(255,255,255,0.70)!important;
-}
 .link-style-black{
 	text-decoration:underline!important;
 	color:#000000!important;
@@ -1446,6 +1432,24 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-size:90% auto;
 	background-image:url("img/data%20trusts%20header%20image.svg");
 	background-color:#2153F4;
+}
+.p-style{
+	letter-spacing:0px;
+	text-indent:0px;
+}
+.bold-stat-large{
+	font-size:150px;
+	font-weight:bold;
+	text-align:center;
+	letter-spacing:-6px;
+	text-indent:-15px;
+}
+.bold-stat-extra-large{
+	font-size:250px;
+	font-weight:bold;
+	text-align:center;
+	letter-spacing:-6px;
+	text-indent:-15px;
 }
 
 /* = Colour
@@ -1488,6 +1492,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bgc-purple-heart{
 	background-color:#722DA5;
+}
+.bgc-dodger-blue-2{
+	background-color:#11A0FF;
 }
 .bgc-white{
 	background-color:#FFFFFF;
@@ -1704,18 +1711,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h6-47653-style{
 		font-size:30px;
 	}
-	.h1-style{
-		font-size:30px;
-		line-height:40px;
-	}
 	.nav-links{
 		font-family:"OTS-derive2-font";
 		font-weight:900;
 		text-transform:uppercase;
 		text-decoration:underline!important;
-	}
-	.p-style{
-		font-size:17px;
 	}
 	.h2-style{
 		font-size:32px;
@@ -1889,10 +1889,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h2-style{
 		font-size:30px;
 	}
-	.p-style{
-		font-size:16px;
-		line-height:20px;
-	}
 	.h1-bloc-7-style{
 		font-size:200px;
 	}
@@ -1901,10 +1897,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		font-family:"OTS-derive2-font";
 		font-size:30px;
 		padding-bottom:10px;
-	}
-	.h1-style{
-		font-size:24px;
-		line-height:30px;
 	}
 	.p-8-style{
 		font-size:25px;
