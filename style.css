@@ -1501,14 +1501,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-palatinate-blue{
 	background-color:#2153F4;
 }
+.bgc-palatinate-blue-2{
+	background-color:#2153F4;
+}
 .bgc-purple-heart{
 	background-color:#722DA5;
 }
 .bgc-dodger-blue-2{
 	background-color:#11A0FF;
-}
-.bgc-palatinate-blue-2{
-	background-color:#2153F4;
 }
 .bgc-saffron{
 	background-color:#FBC630;
@@ -2083,6 +2083,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h1-heading-1-style{
 		font-size:75px;
 		text-align:center;
+		margin-top:10px;
+		line-height:75px;
 	}
 	.training-stat{
 		font-size:130px;
@@ -2170,6 +2172,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.padding-imapct{
 		padding-right:50px;
 		padding-left:50px;
+	}
+	.stat-margin{
+		margin-bottom:0px;
+	}
+	.bloc-bloc-27-margin-top{
+		margin-top:55px;
 	}
 	
 	/* Mobile Row Margin Offsets */
