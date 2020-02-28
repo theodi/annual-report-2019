@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    ODI Annual report draft V5
+	    ODI Annual report draft MOBILE 
         Built with Blocs
 -----------------------------------------------------------------------------------*/
  
@@ -256,9 +256,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Row Margin Offsets */
 
-.voffset{
-	margin-top:30px;
-}
 .voffset-lg{
 	margin-top:80px;
 }
@@ -342,9 +339,6 @@ button{
 	outline: none!important;
 }
 
-.btn-sq{
-	border-radius: 0px;
-}
 .dropdown a .caret{
 	margin:0 0 0 5px}.btn-dropdown .dropdown-menu .dropdown{
 	padding: 3px 20px;
@@ -352,28 +346,8 @@ button{
 
 
 
-/* = Text Widths
--------------------------------------------------------------- */
-.text-w-90{
-	max-width:90%;
-}
-.text-center.text-w-sm, .text-center.text-w-md, .text-center.text-w-lg, .text-center.text-w-90, .text-center.text-w-80, .text-center.text-w-70, .text-center.text-w-60, .text-center.text-w-50{
-	margin-left: auto;
-	margin-right: auto;
-}
 
-/* = Lists
--------------------------------------------------------------- */
-.list-horizontal-layout li{
-	float:left;
-	margin:0 10px;
-}
-.list-sp-md li:last-child,.list-sp-lg li:last-child,.list-sp-xl li:last-child{
-	padding-bottom:0;
-}
 
-/* = Cards
--------------------------------------------------------------- */
 .card-sq, .card-sq .card-header, .card-sq .card-footer{
 	border-radius:0;
 }
@@ -389,10 +363,6 @@ button{
 
 
 
-/* Scroll FX */
-.scroll-fx-in-range{
-	will-change: opacity;
-}
 
 
 /* ScrollToTop button */
@@ -413,11 +383,6 @@ button{
 .showScrollTop{
 	font-size: 14px;
 	opacity: 1;
-}
-
-/* Hide Object */
-.object-hidden{
-	display:none;
 }
 
 /* = Custom Styling
@@ -528,11 +493,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	float:left;
 	margin:-100px -100px -100px -100px;
 	padding:0px 0px 0px 0px;
-}
-.h1-4-style{
-	font-size:400px;
-	font-family:"OTS-derive3-font";
-	letter-spacing:-10px;
 }
 .h1-summit{
 	font-weight:bold;
@@ -1535,21 +1495,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-caribbean-green{
 	background-color:#1CD3A6;
 }
-.bgc-dodger-blue-2{
-	background-color:#11A0FF;
-}
-.bgc-white-smoke{
-	background-color:#F5F4F4;
-}
-.bgc-saffron{
-	background-color:#FBC630;
-}
-.bgc-ultramarine-blue{
-	background-color:#2C6FF6;
-}
-.bgc-bright-pink{
-	background-color:#E5007B;
-}
 
 /* Text colour styles */
 
@@ -1586,24 +1531,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-black{
 	color:#000000!important;
 }
-.tc-capri-2{
-	color:#00B6FF!important;
-}
-.tc-rose-bonbon{
-	color:#EF3AAB!important;
-}
-.tc-caribbean-green{
-	color:#1CD3A6!important;
-}
-.tc-bright-pink{
-	color:#E5007B!important;
-}
-.tc-rose-bonbon-2{
-	color:#EF3AAB!important;
-}
-.tc-pear{
-	color:#C0E136!important;
-}
 
 /* Link colour styles */
 
@@ -1619,17 +1546,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .ltc-black:hover{
 	color:#000000!important;
 }
-.ltc-oxford-blue{
-	color:#1A1D50!important;
-}
-.ltc-oxford-blue:hover{
-	color:#151740!important;
-}
 .ltc-dark-pastel-green{
 	color:#0DBC36!important;
 }
 .ltc-dark-pastel-green:hover{
 	color:#0a962b!important;
+}
+.ltc-oxford-blue{
+	color:#1A1D50!important;
+}
+.ltc-oxford-blue:hover{
+	color:#151740!important;
 }
 .ltc-bright-turquoise{
 	color:#08DDF8!important;
@@ -1670,38 +1597,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-49059619306-b34f1e160f-o-20-281-29{
 	background-image:url("img/49059619306_b34f1e160f_o%20%281%29.jpg");
 }
-.bg-DoxBox0819{
-	background-image:url("img/DoxBox0819.jpg");
-}
-.bg-IMG-9816-ethics-canvas{
-	background-image:url("img/IMG_9816-ethics-canvas.jpg");
-}
-.bg-CABI-Data-Ecosystem-Mapping-workshop-v2{
-	background-image:url("img/CABI-Data-Ecosystem-Mapping-workshop%20v2.jpg");
-}
 .bg-49059105103-c2f1f06968-o{
 	background-image:url("img/49059105103_c2f1f06968_o.jpg");
 }
-.bg-membership-20graphic-2x{
-	background-image:url("img/membership%20graphic@2x.png");
-}
-.bg-49059622361-b71a5fc1b5-o{
-	background-image:url("img/49059622361_b71a5fc1b5_o.jpg");
-}
-.bg-49059105338-680d2cb9ca-o{
-	background-image:url("img/49059105338_680d2cb9ca_o.jpg");
-}
-.bg-49059110828-c9cbe2151d-o-20copy{
-	background-image:url("img/49059110828_c9cbe2151d_o%20copy.jpg");
-}
-.bg-double-image-Randd-20v2{
-	background-image:url("img/double-image-Randd%20v2.jpg");
-}
 .bg-double-image-data-trusts{
 	background-image:url("img/double-image-data-trusts.jpg");
-}
-.bg-equity-20manifesto-20RGB-2x{
-	background-image:url("img/equity%20manifesto%20RGB@2x.png");
 }
 
 
@@ -1820,9 +1720,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h2-style{
 		font-size:32px;
 	}
-	.h1-4-style{
-		font-size:294px;
-	}
 	.stat-blue{
 		font-size:220px;
 	}
@@ -1890,11 +1787,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		margin-top:0;
 	}
 	
-	/* MD Text Margin Offsets */
-	.mg-clear-md{
-		margin:0;
-	}
-	
 }
 
 @media (max-width: 767px){
@@ -1911,9 +1803,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.h6-style{
 		width:100%;
-	}
-	.h1-4-style{
-		font-size:323px;
 	}
 	.h1-4-000-style{
 		font-size:350px;
@@ -1993,10 +1882,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		margin-top:10px;
 		margin-bottom:20px;
 	}
-		.mg-lg-sm{
-		margin-top: 10px;
-		margin-bottom:40px;
-	}
 	
 }
 
@@ -2018,7 +1903,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		padding-bottom:10px;
 	}
 	.h1-style{
-		font-size:22px;
+		font-size:24px;
 		line-height:30px;
 	}
 	.p-8-style{
@@ -2028,9 +1913,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.h6-style{
 		width:100%;
-	}
-	.h1-4-style{
-		font-size:250px;
 	}
 	.stat-blue{
 		font-size:150px;
@@ -2155,6 +2037,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.data-pitch-bg{
 		background-size:90% auto;
+		background-color:#FEFFFE;
 	}
 	.divider-right-purple{
 		border-right-width:0px;
@@ -2178,17 +2061,50 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.divider-top-black{
 		border-top-width:0px;
 	}
+	.padding-span{
+		;
+	}
+	.colour-text-acid{
+		;
+	}
+	.colour-text-white{
+		display:inline;
+	}
+	.navigation-header-intro{
+		font-size:24px;
+	}
+	.bloc-margin-top{
+		margin-top:-100px;
+	}
+	.colour-text-green{
+		color:#0DBC36!important;
+	}
+	.link-style{
+		display:inline;
+	}
+	.colour-text-sky-blue{
+		;
+	}
+	.header-inline-block{
+		display:inline-block;
+	}
+	.colour-text-blue{
+	}
+	.financials-v3{
+		background-image:url("img/financials%20mobile.svg");
+		background-size:auto 100%;
+	}
+	.financials-header-text{
+		font-size:20px;
+	}
+	
+	/* Mobile Row Margin Offsets */
+	.voffset-md-xs{
+		margin-top:50px;
+	}
 	
 	/* Mobile Text Margin Offsets */
-	.mg-sm-xs{
-		margin-top:10px;
-		margin-bottom:5px;
-	}
-		.mg-lg-xs{
-		margin-top: 10px;
-		margin-bottom:40px;
-	}
-		.mg-clear-xs{
+	.mg-clear-xs{
 		margin:0;
 	}
 	
