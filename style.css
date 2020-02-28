@@ -390,6 +390,11 @@ iframe{
 	opacity: 1;
 }
 
+/* Hide Object */
+.object-hidden{
+	display:none;
+}
+
 /* = Custom Styling
 -------------------------------------------------------------- */
 
@@ -2178,6 +2183,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.bloc-bloc-27-margin-top{
 		margin-top:55px;
+	}
+	.hamburger-{
+		;
+	}
+	.close-special-menu .close-icon{
 	}
 	
 	/* Mobile Row Margin Offsets */
