@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    ODI Annual report draft MOBILE 
+	    ODI Annual report draft MOBILE v2
         Built with Blocs
 -----------------------------------------------------------------------------------*/
  
@@ -24,18 +24,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 -------------------------------------------------------------- */
 
 @font-face {
-	font-family:'OTS-derive3-font';
-	src: url('./fonts/OTS-derive3-font/3ADA72_0_0.woff2');
-	src: url('./fonts/OTS-derive3-font/3ADA72_0_0.woff2') format('woff2'),
-	url('./fonts/OTS-derive3-font/3ADA72_0_0.woff') format('woff'),
-	url('./fonts/OTS-derive3-font/3ADA72_0_0.eot?#iefix') format('embedded-opentype'),
-	url('./fonts/OTS-derive3-font/3ADA72_0_0.ttf') format('truetype'),
-	url('./fonts/OTS-derive3-font/3ADA72_0_0.svg#OTS-derive3-font') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
 	font-family:'OTS-derive2-font';
 	src: url('./fonts/OTS-derive2-font/3ADA70_0_0.woff2');
 	src: url('./fonts/OTS-derive2-font/3ADA70_0_0.woff2') format('woff2'),
@@ -43,6 +31,18 @@ a:hover{text-decoration: none; cursor:pointer;}
 	url('./fonts/OTS-derive2-font/3ADA70_0_0.eot?#iefix') format('embedded-opentype'),
 	url('./fonts/OTS-derive2-font/3ADA70_0_0.ttf') format('truetype'),
 	url('./fonts/OTS-derive2-font/3ADA70_0_0.svg#OTS-derive2-font') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'OTS-derive3-font';
+	src: url('./fonts/OTS-derive3-font/3ADA72_0_0.woff2');
+	src: url('./fonts/OTS-derive3-font/3ADA72_0_0.woff2') format('woff2'),
+	url('./fonts/OTS-derive3-font/3ADA72_0_0.woff') format('woff'),
+	url('./fonts/OTS-derive3-font/3ADA72_0_0.eot?#iefix') format('embedded-opentype'),
+	url('./fonts/OTS-derive3-font/3ADA72_0_0.ttf') format('truetype'),
+	url('./fonts/OTS-derive3-font/3ADA72_0_0.svg#OTS-derive3-font') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -363,6 +363,11 @@ button{
 
 
 
+/* iFrame */
+
+iframe{
+	border:0;
+}
 
 
 /* ScrollToTop button */
@@ -1463,6 +1468,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-lavender-pink{
 	background-color:#F2ADD9;
 }
+.bgc-white{
+	background-color:#FFFFFF;
+}
 .bgc-platinum{
 	background-color:#E7E7E7;
 }
@@ -1484,6 +1492,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-dodger-blue{
 	background-color:#178BFF;
 }
+.bgc-white-smoke{
+	background-color:#F5F4F4;
+}
 .bgc-pear{
 	background-color:#C0E136;
 }
@@ -1496,8 +1507,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-dodger-blue-2{
 	background-color:#11A0FF;
 }
-.bgc-white{
-	background-color:#FFFFFF;
+.bgc-palatinate-blue-2{
+	background-color:#2153F4;
+}
+.bgc-saffron{
+	background-color:#FBC630;
 }
 .bgc-caribbean-green{
 	background-color:#1CD3A6;
@@ -1508,8 +1522,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-white{
 	color:#FFFFFF!important;
 }
+.tc-black{
+	color:#000000!important;
+}
 .tc-oxford-blue{
 	color:#1A1D50!important;
+}
+.tc-palatinate-blue{
+	color:#2153F4!important;
 }
 .tc-dodger-blue{
 	color:#11A0FF!important;
@@ -1517,14 +1537,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-dodger-blue-2{
 	color:#11A0FF!important;
 }
-.tc-ultramarine-blue{
-	color:#2C6FF6!important;
+.tc-palatinate-blue-2{
+	color:#2153F4!important;
 }
 .tc-dark-pastel-green{
 	color:#0DBC36!important;
-}
-.tc-palatinate-blue{
-	color:#2153F4!important;
 }
 .tc-bright-turquoise{
 	color:#08DDF8!important;
@@ -1534,9 +1551,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .tc-purple-heart{
 	color:#722DA5!important;
-}
-.tc-black{
-	color:#000000!important;
 }
 
 /* Link colour styles */
@@ -1552,6 +1566,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-black:hover{
 	color:#000000!important;
+}
+.ltc-palatinate-blue{
+	color:#2153F4!important;
+}
+.ltc-palatinate-blue:hover{
+	color:#1a42c3!important;
 }
 .ltc-dark-pastel-green{
 	color:#0DBC36!important;
@@ -1583,16 +1603,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .ltc-pear:hover{
 	color:#9ab42b!important;
 }
-.ltc-ultramarine-blue{
-	color:#2C6FF6!important;
+.ltc-lavender-gray{
+	color:#C6C9C9!important;
 }
-.ltc-ultramarine-blue:hover{
-	color:#2359c5!important;
+.ltc-lavender-gray:hover{
+	color:#9ea1a1!important;
 }
-.ltc-palatinate-blue{
+.ltc-palatinate-blue-2{
 	color:#2153F4!important;
 }
-.ltc-palatinate-blue:hover{
+.ltc-palatinate-blue-2:hover{
 	color:#1a42c3!important;
 }
 
@@ -1609,6 +1629,21 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-double-image-data-trusts{
 	background-image:url("img/double-image-data-trusts.jpg");
+}
+.bg-49059621536-a8949d263c-o{
+	background-image:url("img/49059621536_a8949d263c_o.jpg");
+}
+.bg-data-trusts{
+	background-image:url("img/data-trusts.png");
+}
+.bg-jeni{
+	background-image:url("img/jeni.jpg");
+}
+.bg-RSA-20typographic{
+	background-image:url("img/RSA%20typographic.svg");
+}
+.bg-RSA{
+	background-image:url("img/RSA.png");
 }
 
 
@@ -1975,17 +2010,23 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.p-3-style-{
 		font-size:16px;
 		line-height:20px;
+		font-weight:normal;
 	}
 	.navigation-header{
-		font-size:20px;
+		font-size:12px;
+		text-transform:uppercase;
+		font-weight:normal;
 	}
 	.h1-med-comp{
-		font-size:50px;
-		line-height:50px;
+		line-height:36px;
+		font-family:"OTS-derive2-font";
+		font-size:36px;
 	}
 	.hero-header{
-		font-size:75px;
-		line-height:75px;
+		font-size:45px;
+		line-height:45px;
+		font-family:"OTS-derive2-font";
+		letter-spacing:0px;
 	}
 	.svg-bg-data-trusts{
 		background-color:#2153F4;
@@ -2009,20 +2050,21 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		border-top-width:0px;
 	}
 	.img-bloc-24-style{
-		width:270px;
+		width:200px;
+		height:150px;
 		padding:20px 20px 20px 20px;
 	}
 	.margin-bottom{
-		margin-bottom:50px;
+		margin-bottom:20px;
 	}
 	.margin-top{
-		margin-top:50px;
+		margin-top:20px;
 	}
 	.row-bloc-30-margin-top{
 		margin-top:-65px;
 	}
 	.img-bloc-23-style{
-		padding:20px 20px 20px 20px;
+		height:200px;
 	}
 	.divider-right-green{
 		border-right-width:0px;
@@ -2073,6 +2115,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.link-style{
 		display:inline;
+		font-weight:bold;
 	}
 	.colour-text-sky-blue{
 		;
@@ -2094,6 +2137,32 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.bold-stat-large{
 		font-size:100px;
+	}
+	.span-bold{
+	}
+	.colour-text-black{
+	}
+	.colour-text-grey{
+		color:#C7C8C7!important;
+	}
+	.link-style-black{
+	}
+	.img-style{
+		;
+	}
+	.image-bloc-mobile{
+		width:100%;
+		background-size:100% auto;
+	}
+	.bloc-bloc-41-margin-top{
+		margin-top:40px;
+	}
+	.h1-8-style{
+		font-size:14px;
+		width:100%;
+	}
+	.rsa-bg-type{
+		background-size:90% auto;
 	}
 	
 	/* Mobile Row Margin Offsets */
