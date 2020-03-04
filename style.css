@@ -1483,8 +1483,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-lavender-pink{
 	background-color:#F2ADD9;
 }
-.bgc-neon-fuchsia{
-	background-color:#F458B9;
+.bgc-white{
+	background-color:#FEFFFE;
 }
 .bgc-platinum{
 	background-color:#E7E7E7;
@@ -1531,8 +1531,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Text colour styles */
 
-.tc-neon-fuchsia{
-	color:#F458B9!important;
+.tc-white{
+	color:#FEFFFE!important;
 }
 .tc-black{
 	color:#000000!important;
@@ -1549,7 +1549,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-dodger-blue-2{
 	color:#11A0FF!important;
 }
-.tc-white{
+.tc-white-2{
 	color:#FEFFFE!important;
 }
 .tc-palatinate-blue-2{
@@ -1576,11 +1576,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Link colour styles */
 
-.ltc-neon-fuchsia{
-	color:#F458B9!important;
+.ltc-white{
+	color:#FEFFFE!important;
 }
-.ltc-neon-fuchsia:hover{
-	color:#c34694!important;
+.ltc-white:hover{
+	color:#cbcccb!important;
 }
 .ltc-black{
 	color:#000000!important;
@@ -1588,10 +1588,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .ltc-black:hover{
 	color:#000000!important;
 }
-.ltc-white{
+.ltc-white-2{
 	color:#FEFFFE!important;
 }
-.ltc-white:hover{
+.ltc-white-2:hover{
 	color:#cbcccb!important;
 }
 .ltc-palatinate-blue{
