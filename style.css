@@ -1507,11 +1507,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-dodger-blue{
 	background-color:#178BFF;
 }
-.bgc-pear{
-	background-color:#C0E136;
-}
 .bgc-palatinate-blue{
 	background-color:#2153F4;
+}
+.bgc-pear{
+	background-color:#C0E136;
 }
 .bgc-palatinate-blue-2{
 	background-color:#2153F4;
@@ -1527,6 +1527,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bgc-caribbean-green{
 	background-color:#1CD3A6;
+}
+.bgc-bright-pink{
+	background-color:#E5007B;
 }
 
 /* Text colour styles */
@@ -2252,6 +2255,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.kern-one{
 		text-indent:-10px;
+	}
+	.openactive-watermark{
+		background-image:url("img/openactive%20face%20v3.svg");
+		text-shadow:0px 0px 0px #000000;
+		opacity:1.0;
 	}
 	
 	/* Mobile Row Margin Offsets */
