@@ -1682,6 +1682,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-private-sector-cropped-20mob{
 	background-image:url("img/private-sector-cropped%20mob.jpg");
 }
+.bg-CABI-Data-Ecosystem-Mapping-workshop-mobile{
+	background-image:url("img/CABI-Data-Ecosystem-Mapping-workshop-mobile.jpg");
+}
 
 
 
@@ -2255,6 +2258,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		background-image:url("img/openactive%20face%20v3.svg");
 		text-shadow:0px 0px 0px #000000;
 		opacity:1.0;
+	}
+	.quote-text-main{
+		font-size:25px;
+		line-height:35px;
+		width:100%;
+	}
+	.quote-image{
+		width:25%;
+		margin-bottom:20px;
 	}
 	
 	/* Mobile Row Margin Offsets */
