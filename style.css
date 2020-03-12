@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    ODI Annual report draft MOBILE v3
+	    ODI Annual report draft MOBILE v4
         Built with Blocs
 -----------------------------------------------------------------------------------*/
  
@@ -391,6 +391,11 @@ iframe{
 .showScrollTop{
 	font-size: 14px;
 	opacity: 1;
+}
+
+/* Hide Object */
+.object-hidden{
+	display:none;
 }
 
 /* = Custom Styling
@@ -1475,29 +1480,26 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-black{
 	background-color:#000000;
 }
-.bgc-lavender-pink{
-	background-color:#F2ADD9;
-}
 .bgc-white{
 	background-color:#FEFFFE;
 }
-.bgc-platinum{
-	background-color:#E7E7E7;
+.bgc-lavender-pink{
+	background-color:#F2ADD9;
 }
 .bgc-carnation-pink{
 	background-color:#F79DD3;
 }
-.bgc-rose-bonbon{
-	background-color:#EF3AAB;
-}
 .bgc-international-orange{
 	background-color:#FF5800;
+}
+.bgc-rose-bonbon{
+	background-color:#EF3AAB;
 }
 .bgc-capri{
 	background-color:#00B6FF;
 }
 .bgc-dark-pastel-green{
-	background-color:#0DBC36;
+	background-color:#00C346;
 }
 .bgc-dodger-blue{
 	background-color:#178BFF;
@@ -1511,17 +1513,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-palatinate-blue-2{
 	background-color:#2153F4;
 }
-.bgc-purple-heart{
-	background-color:#722DA5;
+.bgc-caribbean-green{
+	background-color:#1CD3A6;
 }
 .bgc-dodger-blue-2{
 	background-color:#11A0FF;
 }
+.bgc-purple-heart{
+	background-color:#722DA5;
+}
+.bgc-platinum{
+	background-color:#E7E7E7;
+}
 .bgc-saffron{
 	background-color:#FBC630;
-}
-.bgc-caribbean-green{
-	background-color:#1CD3A6;
 }
 .bgc-bright-pink{
 	background-color:#E5007B;
@@ -1541,12 +1546,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-oxford-blue{
 	color:#1A1D50!important;
 }
-.tc-dodger-blue{
-	color:#11A0FF!important;
-}
-.tc-dodger-blue-2{
-	color:#11A0FF!important;
-}
 .tc-white-2{
 	color:#FEFFFE!important;
 }
@@ -1554,22 +1553,28 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#2153F4!important;
 }
 .tc-dark-pastel-green{
-	color:#0DBC36!important;
+	color:#00C346!important;
+}
+.tc-purple-heart{
+	color:#722DA5!important;
+}
+.tc-dodger-blue{
+	color:#11A0FF!important;
+}
+.tc-pastel-green{
+	color:#66EF66!important;
+}
+.tc-rose-bonbon{
+	color:#EF3AAB!important;
+}
+.tc-dodger-blue-2{
+	color:#11A0FF!important;
 }
 .tc-bright-turquoise{
 	color:#08DDF8!important;
 }
 .tc-capri{
 	color:#00C3FF!important;
-}
-.tc-purple-heart{
-	color:#722DA5!important;
-}
-.tc-pastel-green{
-	color:#66EF66!important;
-}
-.tc-platinum{
-	color:#E7E7E7!important;
 }
 
 /* Link colour styles */
@@ -1579,12 +1584,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-white:hover{
 	color:#cbcccb!important;
-}
-.ltc-black{
-	color:#000000!important;
-}
-.ltc-black:hover{
-	color:#000000!important;
 }
 .ltc-white-2{
 	color:#FEFFFE!important;
@@ -1598,17 +1597,23 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .ltc-palatinate-blue:hover{
 	color:#1a42c3!important;
 }
+.ltc-lavender-gray{
+	color:#C6C9C9!important;
+}
+.ltc-lavender-gray:hover{
+	color:#9ea1a1!important;
+}
+.ltc-black{
+	color:#000000!important;
+}
+.ltc-black:hover{
+	color:#000000!important;
+}
 .ltc-dark-pastel-green{
-	color:#0DBC36!important;
+	color:#00C346!important;
 }
 .ltc-dark-pastel-green:hover{
-	color:#0a962b!important;
-}
-.ltc-oxford-blue{
-	color:#1A1D50!important;
-}
-.ltc-oxford-blue:hover{
-	color:#151740!important;
+	color:#009c38!important;
 }
 .ltc-bright-turquoise{
 	color:#08DDF8!important;
@@ -1627,12 +1632,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-pear:hover{
 	color:#9ab42b!important;
-}
-.ltc-lavender-gray{
-	color:#C6C9C9!important;
-}
-.ltc-lavender-gray:hover{
-	color:#9ea1a1!important;
 }
 .ltc-palatinate-blue-2{
 	color:#2153F4!important;
@@ -1855,11 +1854,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.thought-leadership-quote{
 		font-size:16px;
 		line-height:24px;
-	}
-	
-	/* MD Row Margin Offsets */
-	.voffset-clear-md{
-		margin-top:0;
 	}
 	
 }
@@ -2267,6 +2261,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.quote-image{
 		width:25%;
 		margin-bottom:20px;
+	}
+	.img-margin-top{
+		;
+	}
+	.bloc-0-margin-top{
+		margin-top:-25px;
 	}
 	
 	/* Mobile Row Margin Offsets */
