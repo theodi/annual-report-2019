@@ -1486,7 +1486,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:rgba(255,255,255,0.50)!important;
 }
 .colour-text-dark-blue{
-	;
+	color:#171947!important;
 }
 .colour-text-grey{
 	color:#D0D3D3!important;
@@ -1553,7 +1553,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .manifesto-bg{
 	background-image:url("img/manifesto%20bg%207.svg");
-	background-size:auto 110%;
+	background-size:auto auto;
 	background-position:left center;
 	background-repeat:no-repeat;
 }
@@ -1576,6 +1576,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .dac-intro-bg{
 	background-image:url("img/DoxBox0819.jpg");
+}
+.randd-bg{
+	background-image:url("img/double-image-RandD.jpg");
 }
 
 /* = Colour
@@ -1655,8 +1658,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-palatinate-blue{
 	color:#2153F4!important;
 }
-.tc-oxford-blue{
-	color:#1A1D50!important;
+.tc-st-patricks-blue{
+	color:#232A62!important;
 }
 .tc-white-2{
 	color:#FEFFFE!important;
@@ -1666,9 +1669,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .tc-dark-pastel-green{
 	color:#00C346!important;
-}
-.tc-bright-turquoise{
-	color:#08DDF8!important;
 }
 .tc-purple-heart{
 	color:#722DA5!important;
@@ -1715,12 +1715,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .ltc-palatinate-blue:hover{
 	color:#1a42c3!important;
 }
-.ltc-dark-pastel-green{
-	color:#00C346!important;
-}
-.ltc-dark-pastel-green:hover{
-	color:#009c38!important;
-}
 .ltc-light-gray{
 	color:#D1D3D3!important;
 }
@@ -1732,12 +1726,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-palatinate-blue-2:hover{
 	color:#1a42c3!important;
-}
-.ltc-bright-turquoise{
-	color:#08DDF8!important;
-}
-.ltc-bright-turquoise:hover{
-	color:#06b1c6!important;
 }
 .ltc-bright-pink{
 	color:#E5007B!important;
@@ -1771,9 +1759,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-49059622361-b71a5fc1b5-o{
 	background-image:url("img/49059622361_b71a5fc1b5_o.jpg");
-}
-.bg-double-image-RandD{
-	background-image:url("img/double-image-RandD.jpg");
 }
 .bg-49059110828-c9cbe2151d-o{
 	background-image:url("img/49059110828_c9cbe2151d_o.jpg");
@@ -2454,6 +2439,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.manifesto-number{
 		font-size:30px;
 		background-size:auto 33px;
+	}
+	.divider-right-pink{
+		border-right-width:0px;
+	}
+	.divider-top-pink{
+		border-top-width:0px;
 	}
 	
 	/* Mobile Row Margin Offsets */
