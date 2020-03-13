@@ -1552,8 +1552,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-bottom:40px;
 }
 .manifesto-bg{
-	background-image:url("img/manifesto%20bg%207.svg");
-	background-size:auto auto;
+	background-image:url("img/manifesto%20bg%208.svg");
+	background-size:120% auto;
 	background-position:left center;
 	background-repeat:no-repeat;
 }
