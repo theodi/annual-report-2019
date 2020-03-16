@@ -1836,13 +1836,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-image:url("img/CABI-Data-Ecosystem-Mapping-workshop%20v2.jpg");
 }
 .bg-membership-20graphic-2x{
-	background-image:url("img/membership%20graphic@2x.png");
+	background-image:url("img/membership%20graphic@2x-1.png");
 }
 .bg-ODI-Alistair-Gentry-DoxBox-trustbot-Credit-Andrea-Capello-DoxBox-trustbot--70-small{
 	background-image:url("img/ODI-Alistair-Gentry-DoxBox-trustbot-Credit-Andrea-Capello-DoxBox-trustbot--70-small.jpg");
 }
 .bg-DoxBox0819-hero-2{
 	background-image:url("img/DoxBox0819-hero-2.jpg");
+}
+.bg-manifesto-20bg-208{
+	background-image:url("img/manifesto%20bg%208.svg");
 }
 
 
@@ -2036,6 +2039,21 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.divider-top-purple{
 		border-top-width:0px;
 	}
+	.divider-right-pink{
+		border-right-width:0px;
+	}
+	.divider-top-pink{
+		border-top-width:0px;
+	}
+	.divider-top-black{
+		border-top-width:0px;
+	}
+	.margin-top{
+	}
+	.padding-imapct{
+		padding-right:200px;
+		padding-left:200px;
+	}
 	
 	/* MD Text Margin Offsets */
 	.mg-clear-md{
@@ -2148,6 +2166,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.hero-header{
 		font-size:130px;
 		line-height:130px;
+	}
+	.divider-top-pink{
+		border-right-width:0px;
+		border-top-width:0px;
+	}
+	.divider-right-pink{
+		border-right-width:0px;
+	}
+	.divider-top-black{
+		border-top-width:0px;
+	}
+	.padding-imapct{
+		padding-left:100px;
+		padding-right:100px;
 	}
 	
 	/* Small Text Margin Offsets */
