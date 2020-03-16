@@ -2054,6 +2054,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		padding-right:200px;
 		padding-left:200px;
 	}
+	.bold-stat{
+		font-size:150px;
+		margin-bottom:-20px;
+	}
 	
 	/* MD Text Margin Offsets */
 	.mg-clear-md{
@@ -2186,14 +2190,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		width:100%;
 	}
 	.quote-image{
-		height:200px;
 		margin-bottom:50px;
+		width:20%;
 	}
 	.h1-105-style{
 		width:100%;
 	}
 	.bold-stat-extra-large{
-		font-size:200px;
+		font-size:175px;
 	}
 	.h1-76-style{
 		width:100%;
@@ -2522,8 +2526,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		width:100%;
 	}
 	.quote-image{
-		width:25%;
 		margin-bottom:20px;
+		width:30%;
 	}
 	.img-margin-top{
 		;
@@ -2542,6 +2546,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.divider-top-pink{
 		border-top-width:0px;
+	}
+	.bold-stat{
+		font-size:100px;
 	}
 	
 	/* Mobile Row Margin Offsets */
