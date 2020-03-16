@@ -1670,11 +1670,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-dodger-blue{
 	background-color:#11A0FF;
 }
-.bgc-dark-pastel-green-2{
-	background-color:#0DBC36;
-}
 .bgc-bright-pink{
 	background-color:#E5007B;
+}
+.bgc-dark-pastel-green-2{
+	background-color:#0DBC36;
 }
 .bgc-rose-bonbon-2{
 	background-color:rgba(239,58,171,0.30);
@@ -2151,6 +2151,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.quote-text-main{
 		font-size:50px;
+		background-position:center center;
 	}
 	.h1-heading-1-style{
 		font-size:80px;
@@ -2180,6 +2181,28 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.padding-imapct{
 		padding-left:100px;
 		padding-right:100px;
+	}
+	.h1-145-style{
+		width:100%;
+	}
+	.quote-image{
+		height:200px;
+		margin-bottom:50px;
+	}
+	.h1-105-style{
+		width:100%;
+	}
+	.bold-stat-extra-large{
+		font-size:200px;
+	}
+	.h1-76-style{
+		width:100%;
+	}
+	.h1-68-style{
+		width:100%;
+	}
+	.bold-stat{
+		font-size:150px;
 	}
 	
 	/* Small Text Margin Offsets */
