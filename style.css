@@ -1148,7 +1148,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .dac-bg{
 	background-position:left top;
-	background-image:url("img/dac%20bg%20v1.svg");
+	background-image:url("img/dac%20copy%20that.svg");
 	background-repeat:no-repeat;
 	background-size:auto auto;
 }
@@ -1558,16 +1558,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-repeat:no-repeat;
 }
 .doxbox-bg{
-	background-image:url("img/ODI-Alistair-Gentry-DoxBox-trustbot-Credit-Andrea-Capello-DoxBox-trustbot--70-small.jpg");
-	background-position:center center;
+	background-position:left center;
 	background-repeat:no-repeat;
+	background-size:auto auto;
+	background-image:url("img/ODI-Alistair-Gentry-DoxBox-trustbot-Credit-Andrea-Capello-DoxBox-trustbot--70-small.jpg");
 }
 .mood-pinball-bg{
 	background-image:url("img/Pinball4-copy.jpg");
 }
 .dac-bg-grey{
 	background-position:left top;
-	background-image:url("img/dac%20bg%20grey.svg");
+	background-image:url("img/dac%20copy%20that%203.svg");
 	background-repeat:no-repeat;
 	background-size:auto auto;
 }
@@ -1579,6 +1580,41 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .randd-bg{
 	background-image:url("img/double-image-RandD.jpg");
+}
+.dac-logo{
+	background-position:left bottom;
+	height:200px;
+}
+.full-height-row{
+	height:100%;
+}
+.column-height{
+	height:100%;
+	float:none;
+}
+.row-align{
+	float:none;
+	height:100%;
+}
+.dac-bg-purple{
+	background-position:left top;
+	background-image:url("img/dac%20copy%20that%202.svg");
+	background-repeat:no-repeat;
+	background-size:auto auto;
+}
+.doxbox-hero{
+	background-image:url("img/id=10743943.2196");
+	background-position:left top;
+	background-size:auto auto;
+	background-color:transparent;
+}
+.dac-bg-{
+	background-image:url("img/dac%20copy%20that%20bg%205.svg");
+	background-position:left top;
+	background-size:auto 100%;
+}
+.row-style{
+	width:100%;
 }
 
 /* = Colour
@@ -1682,11 +1718,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-ultramarine-blue{
 	color:#2C6FF6!important;
 }
-.tc-bright-pink{
-	color:#E5007B!important;
-}
 .tc-rose-bonbon{
 	color:#EF3AAB!important;
+}
+.tc-bright-pink{
+	color:#E5007B!important;
 }
 
 /* Link colour styles */
@@ -1801,6 +1837,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-membership-20graphic-2x{
 	background-image:url("img/membership%20graphic@2x.png");
+}
+.bg-ODI-Alistair-Gentry-DoxBox-trustbot-Credit-Andrea-Capello-DoxBox-trustbot--70-small{
+	background-image:url("img/ODI-Alistair-Gentry-DoxBox-trustbot-Credit-Andrea-Capello-DoxBox-trustbot--70-small.jpg");
+}
+.bg-DoxBox0819-hero-2{
+	background-image:url("img/DoxBox0819-hero-2.jpg");
 }
 
 
