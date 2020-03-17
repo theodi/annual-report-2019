@@ -1790,9 +1790,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-49059105103-c2f1f06968-o{
 	background-image:url("img/49059105103_c2f1f06968_o.jpg");
 }
-.bg-membership-20graphic-2x{
-	background-image:url("img/membership%20graphic@2x-1.png");
-}
 .bg-49059622361-b71a5fc1b5-o{
 	background-image:url("img/49059622361_b71a5fc1b5_o.jpg");
 }
@@ -1835,9 +1832,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-CABI-Data-Ecosystem-Mapping-workshop-20v2{
 	background-image:url("img/CABI-Data-Ecosystem-Mapping-workshop%20v2.jpg");
 }
-.bg-membership-20graphic-2x{
-	background-image:url("img/membership%20graphic@2x-1.png");
-}
 .bg-ODI-Alistair-Gentry-DoxBox-trustbot-Credit-Andrea-Capello-DoxBox-trustbot--70-small{
 	background-image:url("img/ODI-Alistair-Gentry-DoxBox-trustbot-Credit-Andrea-Capello-DoxBox-trustbot--70-small.jpg");
 }
@@ -1846,6 +1840,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-manifesto-20bg-208{
 	background-image:url("img/manifesto%20bg%208.svg");
+}
+.bg-member-20logo{
+	background-image:url("img/member%20logo.svg");
 }
 
 
